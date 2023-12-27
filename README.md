@@ -1,3 +1,6 @@
+
+At present, the PRC-520 protocol is in V1.0, only the basic functions are developed. We will update the protocol continuously to support our roadmap.
+
 # **PRC-520 deploy，mint，transfer** v1.0
 
 
