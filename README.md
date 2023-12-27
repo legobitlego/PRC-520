@@ -1,6 +1,7 @@
-# **PRC-520 deploy，mint，transfer**
+# **PRC-520 deploy，mint，transfer** v1.0
 
-## **\*\*1.deploy**
+
+## (1)deploy
 
 {
 
@@ -38,7 +39,7 @@
 
  
 
-## \*\*2.mint
+## (2)mint
 
 {
 
@@ -64,7 +65,7 @@
 
  
 
-## \*\*3.transfer
+## (3)transfer
 
 {
 
