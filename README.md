@@ -1,7 +1,8 @@
-## **PRC-520 deploy，mint，transfer**
+# **PRC-520 deploy，mint，transfer**
 
-\*\*1.deploy\
-\*\*{
+## **\*\*1.deploy**
+
+{
 
 "p": "prc-520",
 
@@ -37,8 +38,9 @@
 
  
 
-\*\*2.mint\
-\*\*{
+## \*\*2.mint
+
+{
 
 "p": "prc-520",
 
@@ -62,8 +64,9 @@
 
  
 
-\*\*3.transfer\
-\*\*{
+## \*\*3.transfer
+
+{
 
 "p": "prc-520",
 
@@ -87,13 +90,9 @@
 
  
 
+# **prc-520 index rules**
 
-
-
-
-## **prc-520 index rules**
-
-(1)deploy
+## (1)deploy
 
 {
 
@@ -137,7 +136,8 @@ Note: to and fee should be included to finish the check
 
  
 
-(2)mint\
+## (2)mint
+
 {
 
 "p": "prc-520",
@@ -152,15 +152,11 @@ Note: to and fee should be included to finish the check
 
 ·  p The first character of “protocol”, telling the resolver it’s a PRC-520 protocol.
 
- 
-
 ·  op  Event type（deploy, mint, transfer）
 
 ·  tick Name
 
 ·  amt Minting amount
-
- 
 
 inscription\_utf8(Inscription content transcriptJSON)
 
@@ -170,27 +166,17 @@ inscription(content of inscription)
 
 e.g.: 0x646174613a2000000000000000000000000022c22616d74223a2231303030227d
 
- 
-
 To Receiver
 
- 
-
 Fee Handling fee
-
- 
 
 type
 
 The last digit of the hash value generated when minting as type, 36 types in total(0-9, A-Z)
 
- 
-
 hash
 
 e.g.：0x760ac8b989b60000000000000088600000000300000b3f
-
- 
 
 Note: Mint needs to satisfy correct To, Fee and inscription content to be correctly indexed
 
@@ -200,7 +186,7 @@ Note: Mint needs to satisfy correct To, Fee and inscription content to be corr
 
  
 
-(3)transfer
+## (3)transfer
 
  
 
