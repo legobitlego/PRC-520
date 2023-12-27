@@ -176,7 +176,7 @@ Fee Handling fee
 
 type
 
-The last digit of the hash value generated when minting as type, 36 types in total(0-9, A-Z)
+The last digit of the hash value generated when minting as type, 16 types in total
 
 hash
 
